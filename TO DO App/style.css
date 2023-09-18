@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Backgorund colro */
+
+html{
+    background-color: #0f93b7bf;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 100px;
+    gap: 20px;
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.container p{
+    font-size: 25px;
+    color: rgb(229, 255, 97);
+}
+
+.container #userinp{
+    width: 500px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+}
+
+button{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 2px solid #fff;
+}
+
+.boxContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    background-color: #094455bf;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 20px;
+    border: 2px solid #094455bf;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.liElement{
+    list-style-type: none;
+
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adding Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- title -->
+    <title>To Do App</title>
+    <!-- title -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Let's Started -->
+    <div class="container">
+        <h1>TO DO APP</h1>
+        <p>Enter text into the input field to add items to your list.</p>
+        <p>Item added Till Now is : <span class="item-num">0</span></p>
+        <!-- Input For item -->
+        <div>
+            <input type="text" name="name" id="userinp" placeholder="New Item....">
+            <button class="butt"><ion-icon name="send-outline"></ion-icon></button>
+        </div>
+
+
+       <!-- Show Item list -->
+        <div class="show-container">
+            <ul class="item-container"></ul>
+        </div>
+
+    </div>
+
+    <!-- JAvascript File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
